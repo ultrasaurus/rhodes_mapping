@@ -1,0 +1,6 @@
+This applications displays a map in Rhodes using the Google API
+
+To make this work, you need to add your own Google API Key to: app/Map/index.erb
+
+This was developed using a commercial Rhodes license and therefore may be released under MIT License.  
+

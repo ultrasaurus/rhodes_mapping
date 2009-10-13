@@ -1,0 +1,26 @@
+start_path = '/app/Map'
+options_path = '/app/Settings'
+rhobundle_zip_url = nil
+rhobundle_zip_pwd = nil
+
+# Rhodes runtime properties
+
+sync_poll_interval=0
+
+# for production 
+#MinSeverity=1
+#LogToOutput=1
+#MaxLogFileSize=0
+#syncserver='http://192.168.10.60/apps/Aeroprise/sources/'
+
+# for development
+MinSeverity=0
+LogToOutput=1
+MaxLogFileSize=0
+
+use_persistent_storage=1
+
+LogCategories = *
+ExcludeLogCategories =
+KeepTrackOfLastVisitedPage = 0
+LastVisitedPage = '/app'
